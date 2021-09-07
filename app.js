@@ -3,9 +3,26 @@ console.log("Hello World!\n==========\n");
 // Exercise 1 Section
 console.log("EXERCISE 1:\n==========\n");
 
+/* ## Exercise 1: Ignore Even
+
+In this exercise, you will be counting from 1 - 100. For each odd number, you will print the number to the console. If the number is even, do nothing.
+
+1. Create a `for loop` that evaluates numbers from 1 to 100.
+2. Inside the loop body, write an `if/else` selection statement that checks whether a number is odd
+3. If the number is odd, then print the number to the console, otherwise do nothing and continue to the next number
+
+```
+1
+3
+5
+...
+``` */
+
 for (let i = 1; i <= 100 ;i++) {
   if (i % 2 !== 0) {
     console.log(i);
+  } else {
+    continue;
   }
 }
 
